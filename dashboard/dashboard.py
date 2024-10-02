@@ -39,7 +39,7 @@ def create_predict_season(df):
 
 
 #Membaca data yang sudah dibersihkan
-dfDay = pd.read_csv("../dashboard/dataDay.csv")
+dfDay = pd.read_csv("dataDay.csv")
 
 #Mengubah data menjadi dateTime
 date_column = ["dteday"]
